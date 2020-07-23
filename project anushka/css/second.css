@@ -1,0 +1,88 @@
+.new
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://thumbs.dreamstime.com/b/podcast-recording-equipment-rustic-wooden-table-words-new-episode-written-note-pad-top-view-spiral-notepad-169673686.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    
+
+}
+.new h1
+{
+    
+    color: #efefef;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 70px;
+    font-style:italic ;
+
+}
+.new h6{
+    font-family:'Grenze Gotisch', cursive;
+    color: #efefef;
+    font-size: 30px;
+    margin-left: 140px;
+    padding-top: 30px;
+}
+.new h1::after
+{
+    content: '';
+    background-color: #efefef;
+    height: 3px;
+    display: block;
+    width: 120px;
+    margin: 20px auto 5px;
+}
+
+.card
+{
+    margin-top: 40px;
+    margin-left: 40px;
+    transition: 0.6s ease;
+}
+.card:hover
+{
+    box-shadow: 25px 25px 25px;
+}
+.card .btn:hover{
+    transition: 1s ease;
+}
+.card .btn:hover
+{
+    background-color: darkred;
+    border: 1px solid white;
+}
+.navid
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+.quotes 
+{
+    background-color: black;
+}
+.quotes img{
+    width: 330px;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 300px;
+}
+.quotes h1{
+    font-family:'Grenze Gotisch', cursive;
+    color: white;
+    
+    text-align: center;
+    margin-top: 20px;
+}
+.quotes p{
+    color: #efefef;
+    text-align: center;
+    font-weight: 20px;
+    font-style: italic;
+}
+

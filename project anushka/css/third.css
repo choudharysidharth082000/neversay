@@ -1,0 +1,70 @@
+.body
+{
+    background-image: url(https://podcasters.radiopublic.com/static/media/microphones-background.23dff2b1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+    color: #efefef !important;
+    height: 600px;
+}
+.body h1{
+    font-size: 60px;
+    text-align: center;
+    font-style: inherit;
+    
+    font-weight: bolder;
+    margin-top: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.blogspage .card
+{
+    color: darkslategray;
+    margin: 20px;
+    border-radius: 50px;
+    
+}
+.blogspage
+{
+    color: darkslategray;
+    
+}
+.card-body h5{
+    font-family:'Grenze Gotisch', cursive;
+    font-size: 30px;
+}
+.anchor li{
+    list-style: none;
+}
+.anchor a{
+    color: darkslategray;
+    text-decoration: none;
+    text-align: center;
+}
+.card li{
+    color: darkslategray;
+    list-style: none;
+}
+.card-link
+{
+    list-style: none;
+    text-decoration: none;
+    color: #543c90;
+    display: block;
+    background-color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 50px;
+    border: 1px solid #543c90;
+    transition: 1s ease;
+}
+.card-link:hover
+{
+    color: #efefef;
+    background-color: #543c90;
+    
+    border: 1px solid #543c90;
+
+}

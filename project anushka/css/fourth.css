@@ -1,0 +1,28 @@
+
+.navid
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.slider img{
+    height: 700px;
+    width: 100%;
+    filter: grayscale(0.4);
+
+}
+.slider h1{
+    font-size: 300px;
+    float: left;
+}
+.slider .carousel-caption
+{
+    top: 40%;
+    transform: translateY(-50%);
+    bottom: initial !important;
+}
+.slider .carousel-caption h5{
+    color: white;
+    font-size: 80px;
+}
+
